@@ -1,0 +1,14 @@
+[versions]
+gradlew = "8.6"
+java = "21"
+kotlin = "1.9.22"
+
+jupiter = "5.10.2"
+
+[libraries]
+kotlinPlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+
+[bundles]
+
+[plugins]
+kotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
