@@ -4,9 +4,9 @@ Simple Gradle init with common [Java](/buildSrc/src/main/kotlin/common-java.grad
 
 ## Versions
 
-* Gradle version `8.10.2`
-* Kotlin version `2.0.20`
-* Java version `21`
+* Gradle version `8.12.1`
+* Kotlin version `2.1.10`
+* Java version `23`
 
 ## Features
 

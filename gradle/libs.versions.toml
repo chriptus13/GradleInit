@@ -1,10 +1,10 @@
 [versions]
-gradlew = "8.10.2"
-java = "21"
-kotlin = "2.0.20"
-kotlinX = "1.9.0"
+gradlew = "8.12.1"
+java = "23"
+kotlin = "2.1.10"
+kotlinX = "1.10.1"
 
-jupiter = "5.11.1"
+jupiter = "5.11.4"
 
 [libraries]
 kotlinPlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
