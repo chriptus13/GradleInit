@@ -34,3 +34,14 @@ To use this project template simply run one of the following commands in your te
 |--------|-------------------------------------------------------------------------------------------------------------|
 | curl   | `bash -c "$(curl -fsSL "https://raw.githubusercontent.com/chriptus13/GradleInit/refs/heads/main/init.sh")"` |
 | wget   | `bash -c "$(wget -O- "https://raw.githubusercontent.com/chriptus13/GradleInit/refs/heads/main/init.sh")"`   |
+
+### Tips
+
+If you tend to start a lot of projects you can include the following in your Shell profile and simple do `new_jvm_project <project_name>` whenever you're starting a new project.
+
+```bash
+new_jvm_project() {
+  project_name=$1
+  echo "$project_name" | bash -c "$(curl -fsSL "https://raw.githubusercontent.com/chriptus13/GradleInit/refs/heads/main/init.sh")"
+}
+```
