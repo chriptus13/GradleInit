@@ -2,7 +2,8 @@
 
 Simple Gradle init with common [Java](/buildSrc/src/main/kotlin/common-java.gradle.kts)
 and [Kotlin](/buildSrc/src/main/kotlin/common-kotlin.gradle.kts) configuration plugins.
-Check [getting started](#Getting-started)
+
+Check [getting started](#Getting-started).
 
 ## Versions
 
