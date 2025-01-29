@@ -28,7 +28,7 @@ Check [getting started](#Getting-started)
 
 To use this project template simply run one of the following commands in your terminal.
 
-| Method | Command                                                                                                    |
-|--------|------------------------------------------------------------------------------------------------------------|
-| curl   | `bash -c "$(curl -fsSL "https://raw.githubusercontent.com/chriptus13/GradleInit/refs/heads/main/init.sh")` |
-| wget   | `bash -c "$(wget -O- "https://raw.githubusercontent.com/chriptus13/GradleInit/refs/heads/main/init.sh")`   |
+| Method | Command                                                                                                     |
+|--------|-------------------------------------------------------------------------------------------------------------|
+| curl   | `bash -c "$(curl -fsSL "https://raw.githubusercontent.com/chriptus13/GradleInit/refs/heads/main/init.sh")"` |
+| wget   | `bash -c "$(wget -O- "https://raw.githubusercontent.com/chriptus13/GradleInit/refs/heads/main/init.sh")"`   |
