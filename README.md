@@ -13,6 +13,7 @@ Check [getting started](#Getting-started).
 
 ## Features
 
+* Gradle [Toolchains](https://docs.gradle.org/current/userguide/toolchains.html) for JVM projects.
 * Gradle [Version Catalogs](https://docs.gradle.org/current/userguide/platforms.html) feature via
   the [libs TOML file](/gradle/libs.versions.toml).
 * Gradle [JVM Test Suites](https://docs.gradle.org/current/userguide/jvm_test_suite_plugin.html) feature for defining
