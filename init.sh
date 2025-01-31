@@ -25,6 +25,12 @@ rm -f "$PROJECT_NAME/$INIT_SCRIPT"
 
 # Change names
 printf "# %s\n" "$PROJECT_NAME" > "$PROJECT_NAME/README.md"
-sed -i "s/$DEFAULT_PROJECT_NAME/$PROJECT_NAME/g" "$PROJECT_NAME/settings.gradle.kts"
+
+if [[ "$(uname)" == "Darwin" ]]; then
+    sed -i '' "s/$DEFAULT_PROJECT_NAME/$PROJECT_NAME/g" "$PROJECT_NAME/settings.gradle.kts"
+else
+    sed -i "s/$DEFAULT_PROJECT_NAME/$PROJECT_NAME/g" "$PROJECT_NAME/settings.gradle.kts"
+fi
+
 
 echo "Project $PROJECT_NAME initialized via $REPO_URL at ./$PROJECT_NAME"
