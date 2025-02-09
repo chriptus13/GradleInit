@@ -22,6 +22,7 @@ shopt -u dotglob  # Disable dotfile matching
 
 rmdir "$PROJECT_NAME/$GRADLE_INIT_FOLDER"
 rm -f "$PROJECT_NAME/$INIT_SCRIPT"
+rm -rf "$PROJECT_NAME/.github"
 
 # Change names
 printf "# %s\n" "$PROJECT_NAME" > "$PROJECT_NAME/README.md"
