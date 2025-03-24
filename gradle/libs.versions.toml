@@ -3,7 +3,7 @@ gradlew = "8.12.1"
 taskTree = "4.0.0"
 
 java = "23"
-kotlin = "2.1.10"
+kotlin = "2.1.20"
 kotlinX = "1.10.1"
 
 jupiter = "5.11.4"
