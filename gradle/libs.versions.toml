@@ -4,7 +4,7 @@ taskTree = "4.0.0"
 
 java = "23"
 kotlin = "2.1.10"
-kotlinX = "1.10.1"
+kotlinX = "1.10.2"
 
 jupiter = "5.11.4"
 
