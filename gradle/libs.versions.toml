@@ -1,12 +1,12 @@
 [versions]
-gradlew = "8.12.1"
-taskTree = "4.0.0"
+gradlew = "8.13"
+taskTree = "4.0.1"
 
 java = "23"
-kotlin = "2.1.10"
-kotlinX = "1.10.1"
+kotlin = "2.1.20"
+kotlinX = "1.10.2"
 
-jupiter = "5.11.4"
+jupiter = "5.12.2"
 
 [libraries]
 kotlinPlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
