@@ -7,10 +7,6 @@ plugins {
     kotlin("jvm")
 }
 
-repositories {
-    mavenCentral()
-}
-
 kotlin {
     jvmToolchain(libs.versions.java.get().toInt())
 }

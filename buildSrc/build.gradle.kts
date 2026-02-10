@@ -2,9 +2,8 @@ plugins {
     `kotlin-dsl`
 }
 
-repositories {
-    gradlePluginPortal()
-    mavenCentral()
+kotlin {
+    jvmToolchain(libs.versions.java.get().toInt())
 }
 
 dependencies {
