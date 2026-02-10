@@ -3,10 +3,10 @@ gradlew = "9.3.1"
 taskTree = "4.0.1"
 
 java = "23"
-kotlin = "2.1.20"
+kotlin = "2.3.10"
 kotlinX = "1.10.2"
 
-jupiter = "5.12.2"
+jupiter = "6.0.2"
 
 [libraries]
 kotlinPlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }

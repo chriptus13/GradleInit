@@ -7,7 +7,7 @@ Check [getting started](#Getting-started).
 
 ## Versions
 
-* Gradle version `8.12.1`
+* Gradle version `9.3.1`
 * Kotlin version `2.1.10`
 * Java version `23`
 
